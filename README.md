@@ -1,2 +1,2 @@
 # Mikrotik-IP-Collector
-Script collection to get IP for address list 
+Script collection to get various IP for address list 
