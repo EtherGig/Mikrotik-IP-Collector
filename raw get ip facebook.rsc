@@ -13,3 +13,15 @@ add action=add-dst-to-address-list address-list=facebook \
 add action=add-dst-to-address-list address-list=facebook \
     address-list-timeout=1d chain=prerouting dst-address-list=!LOKAL \
     protocol=tcp src-address-list=LOKAL tls-host=*messenger.com*
+add action=add-dst-to-address-list address-list=facebook \
+    address-list-timeout=1d chain=prerouting dst-address-list=!LOKAL \
+    protocol=tcp src-address-list=LOKAL tls-host=*fbwat.ch*
+add action=add-dst-to-address-list address-list=facebook \
+    address-list-timeout=1d chain=prerouting dst-address-list=!LOKAL \
+    protocol=tcp src-address-list=LOKAL tls-host=*fb.gg*
+add action=add-dst-to-address-list address-list=facebook \
+    address-list-timeout=1d chain=prerouting dst-address-list=!LOKAL \
+    protocol=tcp src-address-list=LOKAL tls-host=*.fbcdn.net*
+add action=add-dst-to-address-list address-list=facebook \
+    address-list-timeout=1d chain=prerouting dst-address-list=!LOKAL \
+    protocol=tcp src-address-list=LOKAL tls-host=*.fbsbx.com*
